@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+
+a#genre {
+    padding: 48px;
+    font-size: 24px;
+}
+
+/* Genre background images */
+
+#rock {
+    margin: 4px;
+    background-image: url(./rock.jpg);
+    background-size: cover;
+}
+
+#Classical {
+    margin: 4px;
+    background-image: url(./classical.jpg);
+    background-size: cover;
+}
+
+#jazz {
+    margin: 4px;
+    background-image: url(./jazz.png);
+    background-size: cover;
+}
+
+#pop {
+    margin: 4px;
+    background-image: url(./pop.jpg);
+    background-size: cover;
+}
+
+#hiphop {
+    margin: 4px;
+    background-image: url(./hippop.jpg);
+    background-size: cover;
+}
+
+#edm {
+    margin: 4px;
+    background-image: url(./edm.jpg);
+    background-size: cover;
+}
+
+fieldset.subfieldset {
+    padding: 0;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+a.subfieldset {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-shadow: 0 0 10px black;
+    padding-bottom: 14px;
+}
+
+fieldset.subfieldset:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid #004080;
+    transition-duration: 0.3s;
+}

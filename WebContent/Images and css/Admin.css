@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+
+.sidebar {
+	margin-top:15%;
+  height: 80%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity:1.0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a{
+	 padding: 6px 8px 6px 16px;
+	 text-decoration: none;
+	 font-size: 25px;
+	 color: white;
+	 display: block;
+}
+
+.sidebar a:hover{
+	color: #6495ED;
+}
+
+.head{
+	font-style: oblique;
+	font-size:30px;
+	margin-left:25%;
+}
+
+.trending{
+	display:block;
+	color:white;
+	border:1px solid white;
+	margin-top:15%;
+	margin-left:25%;
+  height: 40%;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity:1.0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.adminLogin{
+	margin-top:5%;
+	color:white;
+	pading:0%;
+	margin-left:35%;
+	margin-right:30%;
+	dispaly:block;
+
+}
+
+.adLog{
+	color:white;
+	font-size:30px;
+}
+#adminsubmit{
+	margin-left:35%;
+}
+
+.admintable{
+	font-family:arial,sans-serif;
+	border-collapse:collapse;
+	width:80%;
+	color:white;
+	border:1px solid white;
+	position:fixed;
+	margin-top:3%;
+	margin-left:17%;
+	background-color:#000080;
+	opacity:1.0;
+}
+
+.tr{
+	color:white;
+}
+
+.tex{
+	width:100%;
+}
+
+.button{
+  background-color: #191970;
+  border: 1px solid white;
+  border-radius:8%;
+  padding:6px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left:90%;
+  margin-top:-15%;
+  cursor: pointer;
+	
+}
+
